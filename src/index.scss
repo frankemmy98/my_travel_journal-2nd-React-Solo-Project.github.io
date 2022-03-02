@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, san-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #f55a5a;
+    color: #fff;
+    align-items: center;
+    height: 90px;
+    justify-content: center;
+}
+
+nav > img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.journal--image {
+    flex: 0 0 200px;
+    padding-top: 50px;
+}
+
+.journal--text {
+   padding: 60px 0 0 30px;
+}
+
+.journal-lists {
+    padding: 40px 60px;
+}
+
+.journal {
+    display: flex;
+    align-items: center;
+}
+
+.journal--img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.journal--location {
+    display: flex;
+    align-items: center;
+}
+
+.journal--location > a {
+    color: #918e9b;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.journal--location > p {
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.journal--location-icon {
+    width: 10px;
+    height: 13px;
+}
+
+.journal--title {
+    margin-bottom: 40px;
+}
+
+.travel--dates {
+    display: flex;
+}
+
+.journal--description {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media(min-width: 768px) {
+    .journal--text{
+        line-height: 0;
+        font-size: 25px;
+    }
+    .journal--title {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+
